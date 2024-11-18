@@ -45,10 +45,9 @@ main {
   color: blue;
 }
 
-.images {
-  width: 200px;
+img {
+  width: 159px;
   height: 150px;
-  float: left;
 }
 
 table {
@@ -58,6 +57,7 @@ table {
 th {
   background-color: lightskyblue;
   color: white;
+  text-align: left;
 }
 
 .table-background {
