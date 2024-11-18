@@ -51,25 +51,23 @@ main {
   float: left;
 }
 
-table {width: 100%;}
+table {
+  width: 100%;
+}
 
 th {
   background-color: lightskyblue;
   color: white;
 }
 
-
-
-.table.background {
+.table-background {
   background-color: lightblue;
 }
 
-.box.short {
-  column-width: 20px;
+.short {
+  width: 25%;
 }
 
---/*
-.box.long {
-  height: 10%;
-  lenght: 50%;
+.long {
+  width: 50%;
 }
