@@ -1,7 +1,75 @@
-h1 {
-  color: red;
+body {
+  margin: 0;
 }
 
-#isblue {
+main {
+  padding-top: 20px;
+}
+
+.bonus-image {
+  background-image: url(./img/pattern.png);
+  background-color: lightskyblue;
+  color: white;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.container {
+  max-width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1rem padding-right 1rem;
+}
+
+.line-height {
+  line-height: 0%;
+}
+
+.word-size {
+  font-size: 12px;
+}
+
+.is-light {
+  font-weight: lighter;
+}
+
+#title-booleaner {
+  font-size: 50px;
+}
+
+#article-booleaner {
+  padding-left: 20px;
+}
+
+.isblue {
   color: blue;
+}
+
+.images {
+  width: 200px;
+  height: 150px;
+  float: left;
+}
+
+table {width: 100%;}
+
+th {
+  background-color: lightskyblue;
+  color: white;
+}
+
+
+
+.table.background {
+  background-color: lightblue;
+}
+
+.box.short {
+  column-width: 20px;
+}
+
+--/*
+.box.long {
+  height: 10%;
+  lenght: 50%;
 }
